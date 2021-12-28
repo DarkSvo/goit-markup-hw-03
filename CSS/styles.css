@@ -24,7 +24,7 @@ ul {
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: #2196F3;
-    padding-left: 215px;
+    
     padding-right: auto;
 }
 .type {
@@ -111,8 +111,7 @@ img {
     } 
 /* section1*/
     .first {
-        padding-top: 200px;
-  padding-bottom: 200px;
+       
   text-align: center;
         
     }   
@@ -122,9 +121,9 @@ img {
    } 
    
    
-   .team{
+   .three{
     padding-bottom: 94px;
-    padding-top: 94px;
+    
 
   
    }    
@@ -143,6 +142,7 @@ img {
         text-transform: uppercase;
         max-width: 696px;
   margin-bottom: 30px;
+  
   margin-left: auto;
   margin-right: auto;
         color: #FFFFFF;}
@@ -182,6 +182,10 @@ img {
         .sec-two {
            padding-right: 30px;
         }
+        .item{
+            padding-bottom: 200px;
+            padding-top: 200px;
+        }
 /*--button*/
 
     .button-one{
@@ -198,6 +202,7 @@ img {
         border-radius: 4px;
         box-shadow: 0px 4px 4px (0, 0, 0, 0.15);
         padding: 10px 32px;
+
         }
     .button-one:hover,.button-one:focus{
             color: #FFFFFF;
@@ -206,7 +211,7 @@ img {
         .filtered {
             list-style: none;
             
-            padding-bottom: 34px;
+            margin-bottom: 50px;
   display: flex;
   justify-content: center;
         }
@@ -234,7 +239,7 @@ img {
                 /* display: block; */
                 border: none;
                 border-radius: 4px;
-                padding: 6px 22px;
+                
               }
               .filter-btn:hover,
               .filter-btn:focus {
@@ -283,7 +288,7 @@ img {
 .
 /*--Наша команда-*/
 .three {padding-bottom: 94px;}
-.tea {padding-top: 94px;}
+/* .four {padding-top: 94px;} */
 
 
     .nam{
@@ -295,12 +300,12 @@ img {
         /* identical to box height */
         
         text-align: center;
-        letter-spacing: 0.03em;
-        padding-top: 30px;
-
-
-
+        letter-spacing: 0.03em;  
+        
 }
+    .pr-wo {
+        padding: 20px 24px;
+    }
     .f3 {
         margin-left: 30px;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -316,8 +321,8 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
         color: #757575;
-        padding-top: 10px;
-        padding-bottom: 30px;
+       
+        margin-top: 10px;
         
     }
 
@@ -332,6 +337,7 @@ img {
         letter-spacing: 0.06em;
 
         color: #212121;
+        margin-bottom: 4px;
 }
 .portfolio{
     padding-top: 94px;
@@ -344,15 +350,30 @@ img {
 .img-port{
    display: flex;
    justify-content: center;
+    
+    display: flex;
     flex-wrap: wrap;
+    margin: -15px;
     
 }
-.imj-teh:not(:nth-child(3)){
+.mmj-teh {
+     flex-basis: calc(100% / 3 - 30px); 
+     flex-basis: calc((100% - 90px) / 3);
+     margin: 15px;
+}
+.imj-teh:not(:nth-child(3n + 3)){
     margin-right: 30px;
     margin-bottom: 30px;
 }
-  
- 
+.imj-teh:nth-child(3),:nth-child(6) {
+    margin-bottom: 30px;
+}
+.imj-teh:nth-child(7) {
+    margin-bottom: 0px;
+}
+.imj-teh:nth-child(8) {
+    margin-bottom: 0;
+}
 
 
 
@@ -362,8 +383,12 @@ img {
     border-bottom-right-radius: 4px;
     padding-top: var(--card-item-gap);
     padding-bottom: var(--card-item-gap);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
     .portfolio-sec {
+        padding-bottom: 94px;
+        padding-top: 94px;
        
       
         
@@ -398,10 +423,12 @@ img {
     .bace {
         color: rgba(255, 255, 255, 0.6);}
         .down{
-            padding-bottom: 60px;
-            padding-top: 20px;
-            padding-left: 215px;
-            padding-right: auto;
+           
+            margin-top: 20px;
+            
         }
         .ftr {padding-top: 60px;
+            padding-bottom: 60px;
         }
+        .footr{margin-bottom: 9px;}
+        
